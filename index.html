@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Product/Service Name</h1>
+    </header>
+
+    <section class="pricing-switcher">
+        <div class="toggle-switch">
+            <input type="checkbox" id="planToggle" class="toggle-input">
+            <label for="planToggle" class="toggle-label">
+                <span class="monthly-label">Monthly</span>
+                <span class="yearly-label">Yearly</span>
+            </label>
+        </div>
+
+        <div class="pricing-cards">
+            <!-- Pricing cards go here -->
+            <div class="card" data-plan="basic">
+                <h2>Basic Plan</h2>
+                <p class="price monthly">$19.99/month</p>
+                <p class="price yearly">$199.99/year</p>
+            </div>
+
+            <div class="card" data-plan="standard">
+                <h2>Standard Plan</h2>
+                <p class="price monthly">$39.99/month</p>
+                <p class="price yearly">$399.99/year</p>
+            </div>
+
+            <div class="card" data-plan="premium">
+                <h2>Premium Plan</h2>
+                <p class="price monthly">$59.99/month</p>
+                <p class="price yearly">$599.99/year</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
